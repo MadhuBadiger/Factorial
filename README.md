@@ -1,2 +1,8 @@
-# Factorial
-factorial of a number
+# Factorial of a number by using recursion function
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+ print(factorial(5)) 
+print(factorial(10))
